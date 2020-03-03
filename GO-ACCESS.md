@@ -103,13 +103,18 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
 
 
 ## Pembahasan
+### Kelebihan dari GOACCESS
+* Platform ini merupakan platform open source yang berarti gratis untuk siapa saja. Tanpa dipungut biaya, siapa saja dapat menggunakan fasilitas dari goaccess.
+* Platform ini sudah mendukung data yang real time, dan juga medukung untuk diakses tanpa browser (dapat diakses lewat ssh atau terminal)
 
-- Pendapat anda tentang aplikasi web ini
-    - kelebihan
-    - kekurangan
-- Bandingkan dengan aplikasi web lain yang sejenis
+### Kekurangan dari GOACCESS
+* Platform ini tidak memiliki integrasi sistem selengkap platform berbayar seperti datadoghq.com yang memiliki lebih dari 400 integrasi sistem.
 
+### Perbandingan dengan Platform Sejenis
+* Platform ini sudah memiliki fitur yang cukup baik dan itu semua dapat diakses secara gratis (open source).
+* Namun, platform ini secara kelengkapan dan kemudahan dalam melakukan log analysis masih terbilang kurang jika dibandingkan dengan datadoghq.com yang merupakan web analyzer berbayar.
 
 ## Referensi
+https://goaccess.io/features
+https://www.datadoghq.com
 
-Cantumkan tiap sumber informasi yang anda pakai.
