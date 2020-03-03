@@ -91,7 +91,7 @@ sudo goaccess /var/log/apache2/access.log --log-format=COMBINED
 sudo goaccess /var/log/apache2/access.log --log-format=COMBINED -a -o /var/www/html/report.html
 
 Buka web browser dan arahkan ke URL http://Vultr_Server_IP/report.html menggunakan web browser favorit anda. 
-The browser will show you many types of statistics using interactive graphs.
+Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif.
 ```
 
 
