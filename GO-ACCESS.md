@@ -115,6 +115,6 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
 * Namun, platform ini secara kelengkapan dan kemudahan dalam melakukan log analysis masih terbilang kurang jika dibandingkan dengan datadoghq.com yang merupakan web analyzer berbayar.
 
 ## Referensi
-https://goaccess.io/features
-https://www.datadoghq.com
+* https://goaccess.io/features
+* https://www.datadoghq.com
 
