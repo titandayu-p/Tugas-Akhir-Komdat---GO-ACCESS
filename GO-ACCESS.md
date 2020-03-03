@@ -44,53 +44,53 @@ sudo apt-get update
 sudo apt-get -y upgrade
 ```
 ## Instalasi
-* #### Install dependencies
+* #### Instal dependency
 ```
 sudo apt-get -y install libncursesw5-dev gcc make
 ```
-Optional package
+Package opsional
 ```
 sudo apt-get -y install libgeoip-dev libtokyocabinet-dev
 ```
-* #### Install GoAccess
+* #### Instal GoAccess
 ```
-> Download the GoAccess tarball by running:
+> Download **GoAccess tarball** dengan menjalankan:
 wget http://tar.goaccess.io/goaccess-1.2.tar.gz
 
-> Extract the tarball:
+> Ekstraksi **tarball**:
 sudo tar -xzvf goaccess-1.2.tar.gz -C /var/www/html
 
-> Configure and install the package:
+> Konfigurasi dan instal *package*:
 cd goaccess-1.2
 sudo ./configure --enable-utf8 --enable-geoip=legacy
 sudo make
 sudo make install
 
-> Create a soft link of goaccess in the /usr/bin directory by running:
+> Buat soft link dengan goaccess di /usr/bin directory dengan menjalankan:
 sudo ln -s /usr/local/bin/goaccess /usr/bin/goaccess
 
-> GoAccess is now installed on your server.
+> Sekarang GoAccess sudah terinstal di server anda.
 ```
-* #### Using GoAccess
+* #### Menggunakan GoAccess
 ```
-> GoAccess is a web log analyzer. If you do not have a web server running, install the Apache web server:
+> GoAccess adalah sebuah **web log analyzer**. Jika tidak ada web server yang dijalankan, instal **Apache web server**:
 sudo apt-get -y install apache2
 
-> Start and enable the web server to run at boot time:
+> Start dan enable web server untuk dijalankan di boot time:
 sudo systemctl start apache2
 sudo systemctl enable apache2
 
-> Allow the required HTTP port through the system firewall:
+> Izinkan port HTTP yang diperlukan melalui firewall sistem:
 sudo firewall-cmd --add-service=http --permanent
 sudo firewall-cmd --reload
 
-> To analyze the log using GoAccess from a terminal, type:
+> Untuk menganalisa log menggunakan GoAccess dari terminal, ketik:
 sudo goaccess /var/log/apache2/access.log --log-format=COMBINED
 
-> To generate an HTML report, type:
+> Untuk *generate* HTML report, ketik:
 sudo goaccess /var/log/apache2/access.log --log-format=COMBINED -a -o /var/www/html/report.html
 
-Open your web browser and navigate to the URL http://Vultr_Server_IP/report.html using your favorite web browser. 
+Buka web browser dan arahkan ke URL http://Vultr_Server_IP/report.html menggunakan web browser favorit anda. 
 The browser will show you many types of statistics using interactive graphs.
 ```
 
