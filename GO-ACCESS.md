@@ -167,6 +167,7 @@ Modul ini berisi ringkasan lokasi geografis yang dipastikan dari alamat IP host 
      style="float: left; margin-right: 10px;" />
 #### HTTP Status Codes
 Kode Status HTTP berisi statistik tentang nilai-nilai keseluruhan kode status dalam permintaan HTTP, diberikan sebagai jumlah dan persentase.
+<br/>
 <img src="HTTP Status Code.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
