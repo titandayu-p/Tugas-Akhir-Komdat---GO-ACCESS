@@ -115,19 +115,25 @@ Permintaan HTTP yang memiliki IP yang sama, tanggal yang sama, dan agen yang sam
      style="float: left; margin-right: 10px;" />
 #### Requested File
 File yang Diminta menunjukkan file yang paling banyak diminta di server web Anda, dan menampilkan kata hit sebagai angka, dan persentase, bersama dengan waktu host dilayani untuk (bandwidth), protokol apa yang digunakan, dan jenis permintaan apa yang digunakan.
+<br/>
 <img src="Requested File.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
+     
 #### Requested Static File
 Hanya menyertakan file statis yang paling sering diminta seperti: jpg, css, swf, js, gif, dan tipe file png, dengan metrik yang sama dengan modul terakhir yang disediakan untuk setiap kejadian.
+<br/>
+<img src="Static Request.png"
+     alt="Markdown GoAccess web"
+     style="float: left; margin-right: 10px;" />
 #### HTTP 404 URLs
 Diberi peringkat seperti modul sebelumnya dengan statistik yang sama, modul ini mencantumkan HTTP 404 berulang atas: Permintaan Tidak Ditemukan Kesalahan, dan URL yang diminta.
-<img src="Requested File.png"
+<img src="Not Founds URL.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Host
 Informasi lebih rinci tentang host itu sendiri yang terhubung ke server web Anda, seperti jumlah koneksi, alamat IP global mereka, dan beberapa jenis metrik berulang yang sama.
-<img src="Virtual Host.png"
+<img src="Visitor Host.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Operating System
@@ -137,12 +143,16 @@ Di sini sistem operasi host ditampilkan, dan penggunaan OS diberi peringkat. Ini
      style="float: left; margin-right: 10px;" />
 #### Browser
 Modul Browser mengikuti konsep yang sama dengan modul terakhir, kecuali dalam hal ini tipe browser host yang digunakan untuk menghubungkan sesi diberi peringkat. Sekali lagi, ini didasarkan pada pengunjung unik, dan bukan total permintaan secara keseluruhan.
+<br/>
 <img src="Browser.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Referral URLs
 Jika host yang dimaksud mengakses situs melalui sumber lain, atau ditautkan / dialihkan ke Anda dari host lain, URL tempat mereka dirujuk akan disediakan di sini dalam modul ini.
-
+<br/>
+<img src="Time Distribution.png"
+     alt="Markdown GoAccess web"
+     style="float: left; margin-right: 10px;" />
 #### Referring Sites
 Modul ini hampir identik dengan yang terakhir (URL Perujuk); satu-satunya perbedaan adalah bahwa alamat situs umum ditampilkan, dan bukan titik asal yang tepat untuk rujukan.
 <img src="Referring Sites.png"
