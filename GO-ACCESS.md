@@ -183,4 +183,8 @@ Kode Status HTTP berisi statistik tentang nilai-nilai keseluruhan kode status da
 ## Referensi
 * https://goaccess.io/features
 * https://www.datadoghq.com
-
+* github.com/allinurl/goaccess
+* github.com/auriza
+* www.vultr.com/docs/how-to-install-goaccess-on-ubuntu-16-04
+* blog.csdn.net/ChibiMarukoChan/article/details/79216313
+* my.kualo.com/knowledgebase/?kbcat=0&article=890
