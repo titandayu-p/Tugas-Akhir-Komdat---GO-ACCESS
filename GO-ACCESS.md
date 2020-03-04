@@ -107,6 +107,31 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
 
 
 ## Pembahasan
+### Penjelasan Log Activity di Go-Acces
+* Unique Visitors
+Permintaan HTTP yang memiliki IP yang sama, tanggal yang sama, dan agen yang sama dianggap sebagai kunjungan unik.
+* Requested File
+File yang Diminta menunjukkan file yang paling banyak diminta di server web Anda, dan menampilkan kata hit sebagai angka, dan persentase, bersama dengan waktu host dilayani untuk (bandwidth), protokol apa yang digunakan, dan jenis permintaan apa yang digunakan.
+* Requested Static File
+Hanya menyertakan file statis yang paling sering diminta seperti: jpg, css, swf, js, gif, dan tipe file png, dengan metrik yang sama dengan modul terakhir yang disediakan untuk setiap kejadian.
+* HTTP 404 URLs
+Diberi peringkat seperti modul sebelumnya dengan statistik yang sama, modul ini mencantumkan HTTP 404 berulang atas: Permintaan Tidak Ditemukan Kesalahan, dan URL yang diminta.
+* Host
+Informasi lebih rinci tentang host itu sendiri yang terhubung ke server web Anda, seperti jumlah koneksi, alamat IP global mereka, dan beberapa jenis metrik berulang yang sama.
+* Operating System
+Di sini sistem operasi host ditampilkan, dan penggunaan OS diberi peringkat. Ini didasarkan pada kunjungan unik, tidak seperti sebagian besar data modul lainnya.
+* Browser
+Modul Browser mengikuti konsep yang sama dengan modul terakhir, kecuali dalam hal ini tipe browser host yang digunakan untuk menghubungkan sesi diberi peringkat. Sekali lagi, ini didasarkan pada pengunjung unik, dan bukan total permintaan secara keseluruhan.
+* Referral URLs
+Jika host yang dimaksud mengakses situs melalui sumber lain, atau ditautkan / dialihkan ke Anda dari host lain, URL tempat mereka dirujuk akan disediakan di sini dalam modul ini.
+* Referring Sites
+Modul ini hampir identik dengan yang terakhir (URL Perujuk); satu-satunya perbedaan adalah bahwa alamat situs umum ditampilkan, dan bukan titik asal yang tepat untuk rujukan.
+* Keyphrases
+Melaporkan kata-kata kunci yang digunakan pada pencarian Google, cache Google, dan Google translate yang mengarah ke server web Anda yang menangani suatu host. Saat ini ini hanya mendukung Google dan tidak ada mesin pencari lainnya.
+* Geo Location
+Modul ini berisi ringkasan lokasi geografis yang dipastikan dari alamat IP host yang dikunjungi. Jika tidak dapat menentukan ini, itu akan ditandai sebagai lokasi tidak diketahui.
+* HTTP Status Codes
+Kode Status HTTP berisi statistik tentang nilai-nilai keseluruhan kode status dalam permintaan HTTP, diberikan sebagai jumlah dan persentase.
 ### Kelebihan dari GOACCESS
 * Platform ini merupakan platform open source yang berarti gratis untuk siapa saja. Tanpa dipungut biaya, siapa saja dapat menggunakan fasilitas dari goaccess.
 * Platform ini sudah mendukung data yang real time, dan juga medukung untuk diakses tanpa browser (dapat diakses lewat ssh atau terminal)
