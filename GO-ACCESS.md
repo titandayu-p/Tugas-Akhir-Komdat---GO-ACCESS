@@ -102,9 +102,6 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 
-- Fungsi-fungsi utama
-- Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
-
 
 ## Pembahasan
 ### Penjelasan Log Activity di Go-Acces
