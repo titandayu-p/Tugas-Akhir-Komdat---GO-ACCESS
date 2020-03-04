@@ -110,6 +110,7 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
 ### Penjelasan Log Activity di Go-Acces
 #### Unique Visitors
 Permintaan HTTP yang memiliki IP yang sama, tanggal yang sama, dan agen yang sama dianggap sebagai kunjungan unik.
+<br/>
 <img src="Uniq Visitors.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
