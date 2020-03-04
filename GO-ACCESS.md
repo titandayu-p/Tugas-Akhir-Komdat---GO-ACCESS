@@ -98,6 +98,10 @@ Browser akan melihatkan berbagai tipe statistic menggunakan graf yang interaktif
 ## Cara Pemakaian
 
 - Tampilan aplikasi web
+<img src="2020-03-04.png"
+     alt="Markdown GoAccess web"
+     style="float: left; margin-right: 10px;" />
+
 - Fungsi-fungsi utama
 - Isi dengan data real/dummy (jangan kosongan) dan sertakan beberapa screenshot
 
