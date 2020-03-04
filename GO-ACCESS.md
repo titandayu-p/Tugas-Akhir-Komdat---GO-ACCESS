@@ -112,7 +112,7 @@ Permintaan HTTP yang memiliki IP yang sama, tanggal yang sama, dan agen yang sam
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Requested File
-File yang Diminta menunjukkan file yang paling banyak diminta di server web Anda, dan menampilkan kata hit sebagai angka, dan persentase, bersama dengan waktu host dilayani untuk (bandwidth), protokol apa yang digunakan, dan jenis permintaan apa yang digunakan.
+File yang Diminta menunjukkan file yang paling banyak diminta di server web dan menampilkan kata hit sebagai angka, dan persentase, bersama dengan waktu host dilayani untuk (bandwidth), protokol apa yang digunakan, dan jenis permintaan apa yang digunakan.
 <br/>
 <img src="Requested File.png"
      alt="Markdown GoAccess web"
@@ -130,7 +130,7 @@ Diberi peringkat seperti modul sebelumnya dengan statistik yang sama, modul ini 
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Host
-Informasi lebih rinci tentang host itu sendiri yang terhubung ke server web Anda, seperti jumlah koneksi, alamat IP global mereka, dan beberapa jenis metrik berulang yang sama.
+Informasi lebih rinci tentang host itu sendiri yang terhubung ke server web, seperti jumlah koneksi, alamat IP global mereka, dan beberapa jenis metrik berulang yang sama.
 <img src="Visitor Host.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
@@ -140,24 +140,24 @@ Di sini sistem operasi host ditampilkan, dan penggunaan OS diberi peringkat. Ini
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Browser
-Modul Browser mengikuti konsep yang sama dengan modul terakhir, kecuali dalam hal ini tipe browser host yang digunakan untuk menghubungkan sesi diberi peringkat. Sekali lagi, ini didasarkan pada pengunjung unik, dan bukan total permintaan secara keseluruhan.
+Modul Browser mengikuti konsep yang sama dengan modul terakhir. Tipe browser host yang digunakan untuk menghubungkan sesi diberi peringkat. Ini didasarkan pada pengunjung unik, dan bukan total permintaan secara keseluruhan.
 <br/>
 <img src="Browser.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Referral URLs
-Jika host yang dimaksud mengakses situs melalui sumber lain, atau ditautkan / dialihkan ke Anda dari host lain, URL tempat mereka dirujuk akan disediakan di sini dalam modul ini.
+Jika host yang dimaksud mengakses situs melalui sumber lain, atau ditautkan / dialihkan ke Anda dari host lain, URL tempat mereka dirujuk akan disediakan dalam modul ini.
 <br/>
 <img src="Time Distribution.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Referring Sites
-Modul ini hampir identik dengan yang terakhir (URL Perujuk); satu-satunya perbedaan adalah bahwa alamat situs umum ditampilkan, dan bukan titik asal yang tepat untuk rujukan.
+Modul ini hampir identik dengan yang terakhir (URL Perujuk). Satu-satunya perbedaan adalah alamat situs umum ditampilkan.
 <img src="Referring Sites.png"
      alt="Markdown GoAccess web"
      style="float: left; margin-right: 10px;" />
 #### Keyphrases
-Melaporkan kata-kata kunci yang digunakan pada pencarian Google, cache Google, dan Google translate yang mengarah ke server web Anda yang menangani suatu host. Saat ini ini hanya mendukung Google dan tidak ada mesin pencari lainnya.
+Melaporkan kata-kata kunci yang digunakan pada pencarian Google, cache Google, dan Google translate yang mengarah ke server web yang menangani suatu host. Saat ini ini hanya mendukung Google dan tidak ada mesin pencari lainnya.
 #### Geo Location
 Modul ini berisi ringkasan lokasi geografis yang dipastikan dari alamat IP host yang dikunjungi. Jika tidak dapat menentukan ini, itu akan ditandai sebagai lokasi tidak diketahui.
 <img src="Geo Location.png"
@@ -188,3 +188,4 @@ Kode Status HTTP berisi statistik tentang nilai-nilai keseluruhan kode status da
 * www.vultr.com/docs/how-to-install-goaccess-on-ubuntu-16-04
 * blog.csdn.net/ChibiMarukoChan/article/details/79216313
 * my.kualo.com/knowledgebase/?kbcat=0&article=890
+* https://www.digitalocean.com/community/tutorials/how-to-install-and-use-goaccess-web-log-analyzer-with-apache-on-debian-7
