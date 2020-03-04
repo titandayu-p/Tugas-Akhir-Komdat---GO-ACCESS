@@ -120,9 +120,6 @@ File yang Diminta menunjukkan file yang paling banyak diminta di server web Anda
      style="float: left; margin-right: 10px;" />
 #### Requested Static File
 Hanya menyertakan file statis yang paling sering diminta seperti: jpg, css, swf, js, gif, dan tipe file png, dengan metrik yang sama dengan modul terakhir yang disediakan untuk setiap kejadian.
-<img src="Static Request.png"
-     alt="Markdown GoAccess web"
-     style="float: left; margin-right: 10px;" />
 #### HTTP 404 URLs
 Diberi peringkat seperti modul sebelumnya dengan statistik yang sama, modul ini mencantumkan HTTP 404 berulang atas: Permintaan Tidak Ditemukan Kesalahan, dan URL yang diminta.
 <img src="Requested File.png"
